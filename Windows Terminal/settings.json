@@ -23,12 +23,14 @@
     // Each one of them will appear in the 'New Tab' dropdown,
     //   and can be invoked from the commandline with `wt.exe -p xxx`
     // To learn more about profiles, visit https://aka.ms/terminal-profile-settings
+    "theme": "dark",
     "profiles":
     {
         "defaults":
         {
             // Put settings here that you want to apply to all profiles.
             "fontSize": 14,
+            "startingDirectory": "./",
             "useAcrylic": true,
             "cursorShape": "underscore",
             "acrylicOpacity": 0.95,
